@@ -1,0 +1,106 @@
+
+div.topside{
+    background-color:rgb(46, 46, 127);
+    top:0%; left:0%;
+    position:absolute;
+    height:35%;
+    width:100%
+}
+
+div.cuprins {
+
+    position:absolute;
+    left:0%;
+    top :35%;
+    width:100%;
+    height:100%;
+    background-color:aqua
+  
+}
+
+
+
+#studii {
+
+    position: absolute;
+    left:22%;
+    top:15%;
+    font-size:24px;
+    color:black
+
+}
+
+#studii {
+
+    position: absolute;
+    left:22%;
+    top:15%;
+    font-size:24px;
+    color:black
+
+}
+
+#experienta {
+
+    position: absolute;
+    left:22%;
+    top:19%;
+    font-size:24px;
+    color:black
+
+}
+
+#profileImage {
+
+    position:absolute;
+    left:5%;
+    top :5%;
+    width:15%;
+    height:85%;
+  
+}
+
+#addressImage {
+
+    position:absolute;
+    left:42%;
+    top :70%;
+    width:5%;
+    height:5%;
+  
+}
+
+#linkedInImage {
+
+    position:absolute;
+    left:68%;
+    top :70%;
+    width:5%;
+    height:5%;
+
+
+  
+}
+
+#phoneImage {
+
+    position:absolute;
+    left:25%;
+    top :70%;
+    width:5%;
+    height:5%;
+  
+}
+
+#emailImage {
+
+    position:absolute;
+    left:35%;
+    top :70%;
+    width:5%;
+    height:5%;
+  
+}
+
+
+

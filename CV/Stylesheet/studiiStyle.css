@@ -1,0 +1,46 @@
+div.container{
+
+position:absolute;
+top:0%;
+left:0%;
+width:100%;
+height:100%;
+background-color: aquamarine;
+
+}
+
+#timpFacultate{
+
+
+    top:10%;
+    left:5%;
+    position:absolute;
+
+}
+
+#facultate{
+
+
+    top:15%;
+    left:8%;
+    position:absolute;
+
+}
+
+#timpLiceu{
+
+
+    top:20%;
+    left:5%;
+    position:absolute;
+
+}
+
+#liceu{
+
+
+    top:25%;
+    left:8%;
+    position:absolute;
+
+}
