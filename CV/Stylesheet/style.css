@@ -3,7 +3,7 @@ div.topside{
     background-color:rgb(46, 46, 127);
     top:0%; left:0%;
     position:absolute;
-    height:35%;
+    height:45%;
     width:100%
 }
 
@@ -11,7 +11,7 @@ div.cuprins {
 
     position:absolute;
     left:0%;
-    top :35%;
+    top :45%;
     width:100%;
     height:100%;
     background-color:aqua
@@ -20,15 +20,6 @@ div.cuprins {
 
 
 
-#studii {
-
-    position: absolute;
-    left:22%;
-    top:15%;
-    font-size:24px;
-    color:black
-
-}
 
 #studii {
 
@@ -63,7 +54,7 @@ div.cuprins {
 #addressImage {
 
     position:absolute;
-    left:42%;
+    left:54%;
     top :70%;
     width:5%;
     height:5%;
