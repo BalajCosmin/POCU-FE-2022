@@ -1,5 +1,4 @@
 div.container {
-
     position: absolute;
     top: 0%;
     left: 0%;
@@ -9,76 +8,52 @@ div.container {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 #endavaPracticeTime {
-
-
     top: 10%;
     left: 5%;
     position: absolute;
-
 }
 
 #endavaPractice {
-
-
     top: 15%;
     left: 8%;
     position: absolute;
-
 }
 
 #endavaPracticeDescription {
-
-
     top: 20%;
     left: 10%;
     position: absolute;
-
 }
 
 #timpExtended {
-
-
     top: 30%;
     left: 5%;
     position: absolute;
-
 }
 
 #extended {
-
-
     top: 35%;
     left: 8%;
     position: absolute;
-
 }
 
 #extendedDescription {
-
-
     top: 40%;
     left: 10%;
     position: absolute;
-
 }
 
 #timpInternship {
-
-
     top: 64%;
     left: 5%;
     position: absolute;
-
 }
 
 
 #internship {
-
-
     top: 60%;
     left: 8%;
     position: absolute;
@@ -87,8 +62,6 @@ div.container {
 
 
 #internshipDescription {
-
-
     top: 70%;
     left: 10%;
     position: absolute;

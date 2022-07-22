@@ -1,5 +1,4 @@
 div.container {
-
     position: absolute;
     top: 0%;
     left: 0%;
@@ -9,41 +8,28 @@ div.container {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 #timpFacultate {
-
-
     top: 10%;
     left: 10%;
     position: absolute;
-
 }
 
 #facultate {
-
-
     top: 15%;
     left: 13%;
     position: absolute;
-
 }
 
 #timpLiceu {
-
-
     top: 20%;
     left: 10%;
     position: absolute;
-
 }
 
 #liceu {
-
-
     top: 25%;
     left: 13%;
     position: absolute;
-
 }
