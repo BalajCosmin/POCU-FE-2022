@@ -1,19 +1,30 @@
 <!DOCTYPE HTML>
-<HTML>
+<html>
 
 
-<HEAD>
+<head>
 
     <title>My CV</title>
     <link rel="stylesheet" href="./style.css">
 
-</HEAD>
+</head>
 
-<BODY>
+<body>
 
     <div class="topside">
 
-        <img id="profileImage" src="./Photo.jpeg">
+
+        <picture >
+            <source 
+            
+               media="(min-width: 500px)"
+               srcset="Photo.jpeg">
+            <source 
+               media="(max-width: 465px)"
+               srcset="Photo_Mobile.jpg">
+            <img  id="profileImage" src="Photo.jpeg" 
+            alt="CV Photo"> 
+         </picture>
 
         <h3 id="addressImage" src="./Assets/address.jpeg">Adresa: Cluj_Napoca</h3>
 
@@ -24,7 +35,7 @@
         <h3 id="linkedInImage" src="./Assets/linkedin.png"> LinkedIn:
             https://www.linkedin.com/in/vlad-cosmin-b%C4%83laj/ </h3>
 
-        <p1 style=" position:absolute; top:40%; left:50%; font-size: 36px;">Bălaj Vlad-Cosmin</p1>
+        <p1 style=" position:absolute; top:35%; left:50%; font-size: 36px;">Bălaj Vlad-Cosmin</p1>
 
     </div>
 
@@ -43,6 +54,6 @@
     </div>
 
 
-</BODY>
+</body>
 
-</HTML>
+</html>
