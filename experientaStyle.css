@@ -1,3 +1,84 @@
+
+
+
+@media only screen and (max-width:799px){
+
+    div.container {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-image: url('./assets/Experience_Background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    #endavaPracticeTime {
+        top: 10%;
+        left: 5%;
+        position: absolute;
+    }
+    
+    #endavaPractice {
+        top: 15%;
+        left: 8%;
+        position: absolute;
+    }
+    
+    #endavaPracticeDescription {
+        top: 20%;
+        left: 10%;
+        position: absolute;
+    }
+    
+    #timpExtended {
+        top: 30%;
+        left: 5%;
+        position: absolute;
+    }
+    
+    #extended {
+        top: 35%;
+        left: 8%;
+        position: absolute;
+    }
+    
+    #extendedDescription {
+        top: 40%;
+        left: 10%;
+        width:80%;
+        position: absolute;
+        margin-right: 20px;
+    }
+    
+    #timpInternship {
+        top: 70%;
+        left: 5%;
+        position: absolute;
+    }
+    
+    
+    #internship {
+        top: 75%;
+        left: 8%;
+        position: absolute;
+    
+    }
+    
+    
+    #internshipDescription {
+        top: 80%;
+        left: 10%;
+        position: absolute;
+        margin-right: 20px;
+    }
+    
+    }
+
+@media only screen and (min-width:800px){
+
 div.container {
     position: absolute;
     top: 0%;
@@ -44,6 +125,7 @@ div.container {
     top: 40%;
     left: 10%;
     position: absolute;
+    margin-right: 100px;
 }
 
 #timpInternship {
@@ -67,3 +149,8 @@ div.container {
     position: absolute;
     margin-right: 180px;
 }
+
+}
+
+
+
