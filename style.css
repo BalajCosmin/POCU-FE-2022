@@ -48,6 +48,8 @@
   }
 
 
+
+
   #menu-header{
 
     position:fixed;
@@ -203,6 +205,8 @@
     display: flex;
     align-items: stretch;
   }
+
+  
   #contactListContainer {
     position: absolute;
     width: 30%;
@@ -211,6 +215,20 @@
     top: 53%;
     background: rgba(0, 0, 0, 0);
   }
+
+  #linkedIn:visited{
+
+    color: #b80b0b;
+    background-color: transparent;
+   text-decoration: none;
+ 
+   }
+ 
+   linkedIn:hover {
+     color: rgb(135, 9, 101);
+     background-color: transparent;
+     text-decoration: underline;
+   }
 }
 
 
@@ -381,6 +399,20 @@
     top: 28%;
     background: rgba(0, 0, 0, 0);
   }
+
+  #linkedIn:visited{
+
+    color: #b80b0b;
+    background-color: transparent;
+   text-decoration: none;
+ 
+   }
+ 
+   linkedIn:hover {
+     color: rgb(135, 9, 101);
+     background-color: transparent;
+     text-decoration: underline;
+   }
 }
 
 
@@ -510,6 +542,20 @@
     top: 35%;
     background: rgba(0, 0, 0, 0);
   }
+
+  #linkedIn:visited{
+
+    color: #b80b0b;
+    background-color: transparent;
+   text-decoration: none;
+ 
+   }
+ 
+   linkedIn:hover {
+     color: rgb(135, 9, 101);
+     background-color: transparent;
+     text-decoration: underline;
+   }
 }
 
 
@@ -632,10 +678,30 @@
     align-items: stretch;
   }
   #contactListContainer {
-    width: 60%;
+    width: 65%;
     height: 44%;
     left: 30%;
     top: 40%;
     background: rgba(0, 0, 0, 0);
   }
+
+
+  #linkedIn:visited{
+
+   color: #b80b0b;
+   background-color: transparent;
+  text-decoration: none;
+
+  }
+
+  #linkedIn:hover {
+    color: rgb(135, 9, 101);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
 }
+
+
+
