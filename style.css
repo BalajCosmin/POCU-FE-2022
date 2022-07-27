@@ -1,6 +1,6 @@
 @media only screen and (max-width: 599px) {
   div.topside {
-    background-image: url("./assets/index_background_image_top.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -37,7 +37,7 @@
     margin-right: 15%;
     width: 100%;
     height: 100%;
-    background-image: url("./assets/index_content_background.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -240,7 +240,7 @@
 
 @media (min-width: 600px) and (max-width: 799px) {
   div.topside {
-    background-image: url("./assets/index_background_image_top.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -369,7 +369,7 @@
     top: 50%;
     width: 100%;
     height: 100%;
-    background-image: url("./assets/index_content_background.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -423,7 +423,7 @@
 
 @media (min-width: 800px) and (max-width: 1009px) {
   div.topside {
-    background-image: url("./assets/index_background_image_top.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -467,7 +467,7 @@
     top: 55%;
     width: 100%;
     height: 100%;
-    background-image: url("./assets/index_content_background.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -567,7 +567,7 @@
 
 @media only screen and (min-width: 1010px) {
   div.topside {
-    background-image: url("./assets/index_background_image_top.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -604,7 +604,7 @@
     margin-right: 15%;
     width: 100%;
     height: 100%;
-    background-image: url("./assets/index_content_background.jpg");
+    background-image: url("./assets/polygon-background.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -676,6 +676,7 @@
   .contactListItem {
     display: flex;
     align-items: stretch;
+    text-align: center;
   }
   #contactListContainer {
     width: 65%;
@@ -683,6 +684,7 @@
     left: 30%;
     top: 40%;
     background: rgba(0, 0, 0, 0);
+    text-align: center;
   }
 
 
@@ -691,8 +693,18 @@
    color: #b80b0b;
    background-color: transparent;
   text-decoration: none;
-
+  text-align: center;
+   padding-top: 0px;
   }
+
+  #linkedIn{
+
+    color: #b80b0b;
+    background-color: transparent;
+   text-decoration: none;
+   text-align: center;
+   padding-top: 0px;
+   }
 
   #linkedIn:hover {
     color: rgb(135, 9, 101);
