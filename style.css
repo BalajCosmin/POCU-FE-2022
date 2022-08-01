@@ -25,7 +25,8 @@
   }
 
   #description {
-    position: absolute;
+    display:flex;
+    flex-direction: column;
     top: 60%;
     left: 10%;
   }
@@ -380,7 +381,8 @@
   }
 
   #description {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     top: 10%;
     left: 10%;
     margin-right: 120px;
