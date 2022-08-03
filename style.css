@@ -21,7 +21,7 @@
   #videoFrame {
     position: absolute;
     left: 23%;
-    top: 40%;
+    top: 54%;
   }
 
   #description {
@@ -72,6 +72,24 @@
 	transition: 0.3s ease;
     
 }
+
+#myBtn{
+  left: 45%;
+  top:45%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#more {display: none;}
 
 #bar1{
 	transform: translateY(-4px);
@@ -259,10 +277,29 @@
     font-size: 24px;
   }
 
+
+  #myBtn{
+    left: 45%;
+    top:45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #more {display: none;}
+
   #videoFrame {
     position: absolute;
     left: 23%;
-    top: 40%;
+    top: 54%;
   }
 
   #profileImage {
@@ -436,6 +473,11 @@
     width: 100%;
   }
 
+
+  #myBtn{display: none;}
+  #more {display: block;}
+
+
   #myName {
     position: absolute;
     top: 20%;
@@ -579,6 +621,10 @@
     height: 50%;
     width: 100%;
   }
+
+  
+  #myBtn{display: none;}
+  #more {display: block;}
 
   #description {
     position: absolute;
