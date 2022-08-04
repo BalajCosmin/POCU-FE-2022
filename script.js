@@ -4,11 +4,17 @@ function onClickMenu(){
 	
 	document.getElementById("menu-bg").classList.toggle("change-bg");
 }
-
-const burgerMenu = document.querySelector(".nav");
+ 
+ /*
+ const burgerMenu = document.querySelector(".nav");
 burgerMenu.addEventListener("click", function () {
   burgerMenu.classList.toggle("active");
 });
+*/
+
+var navbar = document.createElement("NAV");
+var titleNav = document.createElement("div");	
+navbar.appendChild(titleNav);
 
 function readMore() {
 	var dots = document.getElementById("dots");

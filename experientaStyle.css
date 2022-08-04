@@ -1,156 +1,194 @@
+@media only screen and (max-width: 799px) {
+  .experience {
+    height: fit-content;
+    width: 90%;
+
+    align-self: stretch;
+    background-color: lemonchiffon;
+    color: var(--);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(8, 52, 98) 0px 20px 30px -10px;
+  }
+
+  /* .experience:hover {
+    min-height: 450px;
+    min-width: 400px;
+    background-color: lemonchiffon;
+  }
+
+  .experience .open {
+    max-height: 80px;
+    transition: max-height 0.3s cubic-bezier(0.9, 0, 0.8, 0.2);
+  }
+
+  */
 
 
+  .description-experience {
+    display: contents;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 12px 0;
+    animation: close 0.1s linear 0.1s forwards;
+  }
 
-@media only screen and (max-width:799px){
+  open.description-experience {
+    animation: open 0.1s linear 0s forwards;
+  }
 
-    div.container {
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 100%;
-        background-image: url('./assets/Experience_Background.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+  #readMoreBtn {
+    background: transparent;
+    border: 2px solid #000;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
     
-    #endavaPracticeTime {
-        top: 10%;
-        left: 5%;
-        position: absolute;
-    }
-    
-    #endavaPractice {
-        top: 15%;
-        left: 8%;
-        position: absolute;
-    }
-    
-    #endavaPracticeDescription {
-        top: 20%;
-        left: 10%;
-        position: absolute;
-    }
-    
-    #timpExtended {
-        top: 30%;
-        left: 5%;
-        position: absolute;
-    }
-    
-    #extended {
-        top: 35%;
-        left: 8%;
-        position: absolute;
-    }
-    
-    #extendedDescription {
-        top: 40%;
-        left: 10%;
-        width:80%;
-        position: absolute;
-        margin-right: 20px;
-    }
-    
-    #timpInternship {
-        top: 70%;
-        left: 5%;
-        position: absolute;
-    }
-    
-    
-    #internship {
-        top: 75%;
-        left: 8%;
-        position: absolute;
-    
-    }
-    
-    
-    #internshipDescription {
-        top: 80%;
-        left: 10%;
-        position: absolute;
-        margin-right: 20px;
-    }
-    
-    }
+  }
 
-@media only screen and (min-width:800px){
+  .arrow {
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
 
-div.container {
+  .open .arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: 5px;
+  }
+
+  .article-experience {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex: 1 1 0px;
+    margin: 50px;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10%;
+  }
+
+  div.container {
     position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/Experience_Background.jpg');
+    background-image: url("./assets/Experience_Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    align-items: center;
+  }
+
 }
 
-#endavaPracticeTime {
-    top: 10%;
-    left: 5%;
+@media only screen and (min-width: 800px) {
+  div.container {
     position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/Experience_Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .experience {
+       min-height: 450px;
+    width: 80%;
+    background-color: lemonchiffon;
+    color: var(--);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(8, 52, 98) 0px 20px 30px -10px;
+    align-self: stretch;
+  }
+
+  /*
+  .experience:hover {
+    height: 450px;
+    width: 400px;
+    background-color: lemonchiffon;
+    align-self: stretch;
+  }
+
+  .experience .open {
+    max-height: 80px;
+    transition: max-height 0.3s cubic-bezier(0.9, 0, 0.8, 0.2);
+  }
+
+  */
+
+  .description-experience {
+    display: block;
+    text-overflow: ellipsis;
+    margin: 12px 0;
+    animation: close 0.1s linear 0.1s forwards;
+  }
+
+  open.description-experience {
+    animation: open 0.1s linear 0s forwards;
+  }
+
+  #readMoreBtn {
+    background: transparent;
+    border: 2px solid #000;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    
+  }
+
+  .arrow {
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .open .arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: 5px;
+  }
+
+  .article-experience {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+
+  
 }
-
-#endavaPractice {
-    top: 15%;
-    left: 8%;
-    position: absolute;
-}
-
-#endavaPracticeDescription {
-    top: 20%;
-    left: 10%;
-    position: absolute;
-}
-
-#timpExtended {
-    top: 30%;
-    left: 5%;
-    position: absolute;
-}
-
-#extended {
-    top: 35%;
-    left: 8%;
-    position: absolute;
-}
-
-#extendedDescription {
-    top: 40%;
-    left: 10%;
-    position: absolute;
-    margin-right: 100px;
-}
-
-#timpInternship {
-    top: 64%;
-    left: 5%;
-    position: absolute;
-}
-
-
-#internship {
-    top: 60%;
-    left: 8%;
-    position: absolute;
-
-}
-
-
-#internshipDescription {
-    top: 70%;
-    left: 10%;
-    position: absolute;
-    margin-right: 180px;
-}
-
-}
-
-
-
