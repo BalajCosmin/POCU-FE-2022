@@ -87,14 +87,6 @@ const experiences = [
   
   const box = document.querySelector(".experience");
   
-  let isOpen = false;
-  document.querySelector("button").addEventListener("click", () => {
-    isOpen = !isOpen;
-    if (isOpen) {
-      box.classList.add("open");
-    } else {
-      box.classList.remove("open");
-    }
-  });
+
 
   
