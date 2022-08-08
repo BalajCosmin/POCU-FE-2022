@@ -1,0 +1,17 @@
+.inp{
+    border-color: red;
+    background-color: beige;
+    font-size: large;
+    text-align: center;
+}
+
+body{
+
+    align-items: center;
+}
+
+form{
+    top: 30%;
+    left:15%;
+    position: absolute;
+}
