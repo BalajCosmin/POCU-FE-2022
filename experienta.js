@@ -65,7 +65,6 @@ const experiences = [
   
   function populateExperienceContainer(experienceElem) {
     const experienceContainer = document.getElementById("container-experience");
-  
     experienceElem.forEach(function (experienceObj, index) {
       const experCard = generateExperienceSection(experienceObj);
       experienceContainer.appendChild(experCard);

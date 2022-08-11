@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body style="font-family: sans-serif">
+  <body   style="font-family: sans-serif">
+    <div id='main'>
     <div class="topside">
       <picture>
         <source media="(min-width: 500px)" srcset="./assets/Photo.jpeg" />
-        <source media="(max-width: 480px)" srcset="./assets/Photo_Mobile.jpg" />
+        <source media="(max-width: 499.9px)" srcset="./assets/Photo_Mobile.jpg" />
         <img id="profileImage" src="./assets/Photo.jpeg" alt="CV Photo" />
       </picture>
       <ul id="contactListContainer">
@@ -49,7 +50,7 @@
         <ul class="nav" id="nav">
             <li><a href="studii.html">Education</a></li>
             <li><a href="experienta.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="skills.html">Skills</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
       </div>
@@ -58,7 +59,7 @@
     <ul>
       <li><a href="studii.html">Education</a></li>
       <li><a href="experienta.html">Experience</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="skills.html">Skills</a></li>
       <li><a href="sendMessage.html">Messages</a></li>
     </ul>
     <div id="cuprins">
@@ -70,21 +71,16 @@
         becoming a dependable and valuable team member who seeks further
         development. <span id="dots"></span>
       </p>
-      <div id="videoFrame">
-      <span id="more">
-      <iframe
-        width="300"
-        height="280"
-        src="https://www.youtube.com/embed/uHKfrz65KSU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-    </span>
       <button onclick="readMore()" id="myBtn">Read more</button>
+      <span id="more">
+      <video id="videoFrame" controls >
+        <source src="./assets/cats.mp4" type="video/mp4">
+      </video>
+    </span>
+     
     </div>
-    <script src="script.js"></script>
+
+  </div>
+  <script src="script.js"></script>
   </body>
 </html>
