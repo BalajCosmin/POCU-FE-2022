@@ -129,6 +129,60 @@ const softSkills = [
   },
 ];
 
+const languages = [
+  {
+    id: 1,
+    name: "Romanian: Native language",
+  },
+  {
+    id: 2,
+    name: "English: High proeficiency",
+  },
+
+  {
+    id: 3,
+    name: "French: Limited working proficiency",
+  },
+];
+
+const certificates = [
+  {
+    id: 1,
+    name: "European Computer Driving License (2017-present) ",
+  },
+];
+
+const interests = [
+  {
+    id: 1,
+    name: "Computing ",
+  },
+
+  {
+    id: 2,
+    name: "Arduino ",
+  },
+
+  {
+    id: 3,
+    name: "Data Structures and Algorithms ",
+  },
+
+  {
+    id: 4,
+    name: "Being involved with charities ",
+  },
+
+  {
+    id: 5,
+    name: "Participating in campaigns ",
+  },
+
+  {
+    id: 6,
+    name: "Travelling",
+  },
+];
 function generateSkillSection(skill) {
   const skillsField = document.createElement("ul");
   skillsField.classList = "experience";
@@ -144,10 +198,10 @@ function generateSkillSection(skill) {
 function populateSkillsContainer(skillsElem) {
   const skillsContainer = document.getElementById("container-experience");
   const skillsFieldNameTitle = document.createElement("h1");
-  skillsFieldNameTitle.innerText="My current skills";
+  skillsFieldNameTitle.innerText = "My current skills";
   skillsContainer.appendChild(skillsFieldNameTitle);
   const skillsFieldName = document.createElement("h3");
-  skillsFieldName.innerText="Technical Skills";
+  skillsFieldName.innerText = "Technical Skills";
   skillsContainer.appendChild(skillsFieldName);
 
   skillsElem.forEach(function (skillObj, index) {
@@ -159,7 +213,7 @@ function populateSkillsContainer(skillsElem) {
 function populateOtherSkillsContainer(skillsElem) {
   const skillsContainer = document.getElementById("container-other");
   const skillsFieldName = document.createElement("h3");
-  skillsFieldName.innerText="Other technologies";
+  skillsFieldName.innerText = "Other technologies";
   skillsContainer.appendChild(skillsFieldName);
 
   skillsElem.forEach(function (skillObj, index) {
@@ -171,7 +225,7 @@ function populateOtherSkillsContainer(skillsElem) {
 function populateSoftSkillsContainer(skillsElem) {
   const skillsContainer = document.getElementById("container-soft");
   const skillsFieldName = document.createElement("h3");
-  skillsFieldName.innerText="Soft Skills";
+  skillsFieldName.innerText = "Soft Skills";
   skillsContainer.appendChild(skillsFieldName);
 
   skillsElem.forEach(function (skillObj, index) {
@@ -180,8 +234,49 @@ function populateSoftSkillsContainer(skillsElem) {
   });
 }
 
+function populateLanguagesContainer(languagesElem) {
+  const languagesContainer = document.getElementById("container-languages");
+  const languagesFieldName = document.createElement("h3");
+  languagesFieldName.innerText = "Languages";
+  languagesContainer.appendChild(languagesFieldName);
+
+  languagesElem.forEach(function (languagesObj, index) {
+    const Card = generateSkillSection(languagesObj);
+    languagesContainer.appendChild(Card);
+  });
+}
+
+function populateCertificatesContainer(certificatesElem) {
+  const certificatesContainer = document.getElementById(
+    "container-certificates"
+  );
+  const certificatesFieldName = document.createElement("h3");
+  certificatesFieldName.innerText = "Certificates";
+  certificatesContainer.appendChild(certificatesFieldName);
+
+  certificatesElem.forEach(function (certificatesObj, index) {
+    const Card = generateSkillSection(certificatesObj);
+    certificatesContainer.appendChild(Card);
+  });
+}
+
+function populateInterestsContainer(interestsElem) {
+  const interestsContainer = document.getElementById("container-interests");
+  const interestsFieldName = document.createElement("h3");
+  interestsFieldName.innerText = "Interests";
+  interestsContainer.appendChild(interestsFieldName);
+
+  interestsElem.forEach(function (InterestsObj, index) {
+    const Card = generateSkillSection(InterestsObj);
+    interestsContainer.appendChild(Card);
+  });
+}
+
 populateSkillsContainer(skills);
 populateOtherSkillsContainer(otherTechSkills);
 populateSoftSkillsContainer(softSkills);
+populateLanguagesContainer(languages);
+populateCertificatesContainer(certificates);
+populateInterestsContainer(interests);
 
 const box = document.querySelector(".skills");
