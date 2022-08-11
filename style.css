@@ -11,6 +11,15 @@
   }
 
 
+  h3{
+    z-index: 100;
+    display: none;
+  }
+
+  .githubBtn{
+    display: none;
+  }
+
   #main {
     height: 100vh;
     width: 100%;
@@ -464,6 +473,16 @@ linkedIn:hover {
     text-decoration: none;
   }
 
+   
+  h3{
+    z-index: 100;
+    display: none;
+  }
+
+  .githubBtn{
+    display: none;
+  }
+
   linkedIn:hover {
     color: rgb(135, 9, 101);
     background-color: transparent;
@@ -596,7 +615,7 @@ linkedIn:hover {
     display: flex;
     flex-direction: column;
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-right: 10%;
   }
 
@@ -643,7 +662,79 @@ linkedIn:hover {
     width: 25%;
     height: 200px;
     margin-left: 12%;
-    margin-top: 9%;
+    margin-top: 25%;
+  }
+
+  a{color:#ffffff}
+
+  .githubBtn {
+    width:10%;
+    appearance: button;
+    background-color: #333333;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .githubBtn:after {
+    width: 10%;
+    background-clip: padding-box;
+    background-color: #333333;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .githubBtn:main,
+  .button-19:focus {
+    user-select: auto;
+    width: 10%;
+  }
+  
+  .githubBtn:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .githubBtn:disabled {
+    cursor: auto;
+  }
+  
+  .titles{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top:6%;
   }
 }
 
@@ -700,7 +791,7 @@ linkedIn:hover {
     width: 25%;
     height: 200px;
     margin-left: 35%;
-    margin-top: 10%;
+    margin-top: 1%;
   }
 
   #cuprins {
@@ -811,4 +902,77 @@ linkedIn:hover {
     background-color: transparent;
     text-decoration: underline;
   }
+
+  a{color:#ffffff}
+  .githubBtn {
+    width:10%;
+    appearance: button;
+    background-color: #333333;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .githubBtn:after {
+    width: 10%;
+    background-clip: padding-box;
+    background-color: #333333;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .githubBtn:main,
+  .button-19:focus {
+    user-select: auto;
+    width: 10%;
+  }
+  
+  .githubBtn:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .githubBtn:disabled {
+    cursor: auto;
+  }
+ 
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top:7%;
+    margin-right: 12%;
+  }
+  
 }
